@@ -186,7 +186,7 @@ def main(image_path, yolo_model_path, output_image_path):
         raise
 
 if __name__ == "__main__":
-    image_path = "/mnt/Datasets-FileSystem/Users/Renad-Alhano2024/renad/the-one/screen/SCREENSHOTS/Screenshot 2025-01-07 092531.png"
-    yolo_model_path = "/mnt/Datasets-FileSystem/Users/Renad-Alhano2024/renad/the-one/runs/detect/train17/weights/best.pt"
-    output_image_path = "/mnt/Datasets-FileSystem/Users/Renad-Alhano2024/renad/the-one/output_with_detected_letters.png"
+    image_path = "Path to your image"
+    yolo_model_path = "Path to your model"
+    output_image_path = "Path to your output image"
     main(image_path, yolo_model_path, output_image_path)
